@@ -1,0 +1,2 @@
+dataset,npy_path,T_2Hz,n_layers,dim
+ses-035_task-s04e23a,/home/lawrence/Desktop/algonauts-2025/algonauts2025/pipeline_TRIBE/features/video_2hz/sub-01/ses-035_task-s04e23a.npy,1497,40,1408

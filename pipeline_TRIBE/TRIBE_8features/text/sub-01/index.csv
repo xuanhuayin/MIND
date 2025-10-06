@@ -1,0 +1,9 @@
+dataset,npy_path,n_tr,n_ctx,dim,filled_tokens
+ses-001_task-s01e02a,/home/lawrence/Desktop/algonauts-2025/algonauts2025/pipeline_TRIBE/features/text/sub-01/ses-001_task-s01e02a.npy,482,64,3072,1382
+ses-001_task-s01e02b,/home/lawrence/Desktop/algonauts-2025/algonauts2025/pipeline_TRIBE/features/text/sub-01/ses-001_task-s01e02b.npy,482,64,3072,1073
+ses-001_task-s01e03a,/home/lawrence/Desktop/algonauts-2025/algonauts2025/pipeline_TRIBE/features/text/sub-01/ses-001_task-s01e03a.npy,472,64,3072,1360
+ses-001_task-s01e03b,/home/lawrence/Desktop/algonauts-2025/algonauts2025/pipeline_TRIBE/features/text/sub-01/ses-001_task-s01e03b.npy,472,64,3072,1100
+ses-002_task-s01e04a,/home/lawrence/Desktop/algonauts-2025/algonauts2025/pipeline_TRIBE/features/text/sub-01/ses-002_task-s01e04a.npy,503,64,3072,1399
+ses-002_task-s01e04b,/home/lawrence/Desktop/algonauts-2025/algonauts2025/pipeline_TRIBE/features/text/sub-01/ses-002_task-s01e04b.npy,503,64,3072,1269
+ses-002_task-s01e05a,/home/lawrence/Desktop/algonauts-2025/algonauts2025/pipeline_TRIBE/features/text/sub-01/ses-002_task-s01e05a.npy,468,64,3072,1380
+ses-002_task-s01e05b,/home/lawrence/Desktop/algonauts-2025/algonauts2025/pipeline_TRIBE/features/text/sub-01/ses-002_task-s01e05b.npy,468,64,3072,1120

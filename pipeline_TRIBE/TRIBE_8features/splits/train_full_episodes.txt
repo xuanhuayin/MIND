@@ -1,0 +1,8 @@
+ses-001_task-bourne01
+ses-001_task-bourne02
+ses-001_task-bourne03
+ses-001_task-bourne04
+ses-001_task-bourne05
+ses-001_task-s01e02a
+ses-001_task-s01e02b
+ses-001_task-s01e03a

@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Train MIND with TRIBE backbone features.
+# TRIBE features: multi-layer (40/28/24 layers), 1408/3072/1024-dim per modality.
+set -euo pipefail
+
+DATA_ROOT="${DATA_ROOT:-.}"
+
+python train.py \
+    --all_list  splits/all_episodes.txt \
+    --video_root "${DATA_ROOT}/pipeline_TRIBE/features/video_2hz/sub-01" \
+    --text_root  "${DATA_ROOT}/pipeline_TRIBE/features/text_2hz/sub-01" \
+    --audio_root "${DATA_ROOT}/pipeline_TRIBE/features/audio_2hz/sub-01" \
+    --fmri_root_sub1 "${DATA_ROOT}/fmri_data/sub-01" \
+    --fmri_root_sub2 "${DATA_ROOT}/fmri_data/sub2" \
+    --fmri_root_sub3 "${DATA_ROOT}/fmri_data/sub3" \
+    --fmri_root_sub5 "${DATA_ROOT}/fmri_data/sub5" \
+    --layers 0.6,0.8,1.0 \
+    --layer_aggregation group_mean \
+    --frames_per_tr 3 \
+    --window_tr 100 --stride_tr 50 \
+    --epochs 25 --batch_size 1 --lr 1e-3 --num_workers 0 \
+    --moe_num_experts 8 --moe_top_k 2 --moe_dropout 0.1 \
+    --moe_combine_mode router_x_learned \
+    --moe_subject_expert_bias \
+    --moe_aux_weight 0.01 \
+    --subject_embedding \
+    --out_dir outputs/MIND_TRIBE \
+    --log_dir logs/MIND_TRIBE \
+    "$@"

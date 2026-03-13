@@ -6,7 +6,7 @@
 
 **ICASSP 2025 Oral**
 
-[Xuanhua Yin](https://github.com/xuanhuayin), [Runkai Zhao](https://github.com/RunKZhao), [Weidong Cai](https://weidong-tom-cai.github.io/)
+[Xuanhua Yin](https://github.com/xuanhuayin), [Runkai Zhao](https://scholar.google.com/citations?user=JvoODTgAAAAJ), [Weidong Cai](https://weidong-tom-cai.github.io/)
 
 School of Computer Science, The University of Sydney
 

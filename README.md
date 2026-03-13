@@ -4,7 +4,7 @@
 
 ### Improving Multimodal Brain Encoding Model with Dynamic Subject-Awareness Routing
 
-**ICASSP 2026 Oral**
+**ICASSP 2026**
 
 [Xuanhua Yin](https://github.com/xuanhuayin), [Runkai Zhao](https://scholar.google.com/citations?user=JvoODTgAAAAJ), [Weidong Cai](https://weidong-tom-cai.github.io/)
 
